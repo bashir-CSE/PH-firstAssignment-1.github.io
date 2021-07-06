@@ -1,0 +1,343 @@
+/*===== custome font ======*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+/*============Default behavior============*/
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: "Josefin Sans", sans-serif;
+	position: relative;
+}
+
+section {
+	width: 100vw;
+	padding: 0 6rem;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	background: #f2994a;
+
+	background: linear-gradient(to right, #f2c94c, #f2994a);
+	padding: 0.7rem 1.3rem;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+}
+button a {
+	color: white !important;
+	font-size: 1.1rem;
+}
+
+/*============navbar section============*/
+#navSection {
+	position: fixed;
+	width: 100vw;
+	padding: 0 5rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 9vh;
+	background: #f2994a;
+
+	background: linear-gradient(to left, #f2c94c, #f2994a);
+	box-shadow: 0px 0px 20px -1px #919191;
+}
+
+#navSection .logo {
+	cursor: pointer;
+}
+
+#navSection .logo p {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #575757;
+	text-transform: capitalize;
+}
+
+#navSection nav ul {
+	display: flex;
+	gap: 2rem;
+}
+
+#navSection nav ul li {
+	list-style: none;
+}
+
+#navSection nav ul li a {
+	font-weight: 600;
+	color: #575757 !important;
+	text-transform: capitalize;
+}
+
+/*============Hero section============*/
+#firstSection {
+	height: 100vh;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#firstSection .leftSide {
+	flex: 1;
+}
+
+#firstSection .leftSide h1 {
+	font-size: 3rem;
+	color: #575757;
+	margin-bottom: 15px;
+}
+
+#firstSection .leftSide h1 span {
+	color: orange;
+}
+
+#firstSection .leftSide p {
+	color: #707070;
+	margin-bottom: 20px;
+}
+
+#firstSection .rightSide {
+	flex: 1;
+
+	display: flex;
+
+	justify-content: center;
+}
+
+#firstSection .rightSide .pic1 {
+	overflow: hidden;
+	height: 500px;
+	width: 500px !important;
+}
+
+/*============about section============*/
+#aboutSection {
+	height: 100vh;
+	background-image: url(images/shapes/FrameSecond.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+
+#aboutSection .leftSide {
+	flex: 1;
+}
+
+#aboutSection .leftSide .pic2 {
+	margin: 0 auto;
+	height: 400px;
+	width: 300px !important;
+	overflow: hidden;
+}
+
+#aboutSection .rightSide {
+	flex: 1;
+}
+
+#aboutSection .rightSide h1 {
+	font-size: 3rem;
+	color: #707070;
+	margin-bottom: 15px;
+}
+
+#aboutSection .rightSide h1 span {
+	color: orange;
+}
+
+#aboutSection .rightSide p {
+	color: #575757;
+	margin-bottom: 20px;
+}
+
+/*============ My recipies  section============*/
+#recipies {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	justify-content: center;
+	height: 100vh;
+}
+
+#recipies .title {
+	text-align: center;
+}
+
+#recipies .title h1 {
+	font-size: 3rem;
+	color: #707070;
+	margin-bottom: 0.8rem;
+}
+
+#recipies .title p {
+	color: #575757;
+	margin-bottom: 1rem;
+}
+
+#recipies .recipiesCard {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+#recipies .recipiesCard .card1 {
+	box-shadow: 0px 0px 20px -1px #919191;
+	padding: 1rem;
+	margin: 2rem;
+	border-radius: 15px;
+}
+
+#recipies .recipiesCard .card1 .cardImg {
+	overflow: hidden;
+}
+
+#counter {
+	height: 15vh !important;
+
+	box-shadow: 0px 0px 20px -1px #919191;
+	padding: 1rem;
+	margin: 2rem;
+	border-radius: 15px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*============ contact  section============*/
+#contact {
+	height: 100vh;
+
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+#contact .title {
+	flex: 2;
+	text-align: center;
+}
+
+#contact .title h1 {
+	font-size: 3rem;
+	color: #707070;
+	margin-bottom: 0.8rem;
+	text-transform: capitalize;
+}
+
+#contact .title p {
+	color: #575757;
+	margin-bottom: 1rem;
+}
+
+#contact form {
+	box-shadow: 0px 0px 20px -1px #736f73;
+
+	flex: 1;
+	background-color: #707070;
+	padding: 2rem;
+
+	display: flex;
+
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+}
+
+#contact form .formGroup {
+	width: 100%;
+}
+
+#contact form .formGroup label {
+	color: #ebe7e7;
+	text-transform: capitalize;
+}
+
+#contact form .formGroup input {
+	width: 100%;
+	padding: 0.7rem;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	margin: 0.5rem 0 1rem 0;
+}
+
+#contact form .formGroup textarea {
+	width: 100%;
+	padding: 0.7rem;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	margin: 0.5rem 0 1rem 0;
+}
+
+#contact form .btn {
+	width: 100%;
+	padding: 0.7rem;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	background-color: #0b0d17;
+	color: white;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+
+/*============ Footer  section============*/
+#footer {
+	background-color: #0b0d17;
+	height: 30vh !important;
+	text-align: center;
+	padding-top: 2rem;
+	margin-top: 7rem;
+}
+#footer h1 {
+	color: #575757;
+	margin-bottom: 1rem;
+}
+
+#footer h1 span {
+	color: orange;
+}
+
+#footer p {
+	color: #707070;
+}
+#footer .icon {
+	margin-top: 1.9rem;
+
+	display: flex;
+
+	justify-content: center;
+	gap: 1rem;
+	color: white;
+	font-size: 1.3rem;
+}
+
+#footer .icon .fab {
+	cursor: pointer;
+}
