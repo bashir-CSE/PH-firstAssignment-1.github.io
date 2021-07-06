@@ -16,7 +16,7 @@ body {
 
 section {
 	width: 100vw;
-	padding: 0 6rem;
+	padding: 0 7rem;
 }
 img {
 	height: 100%;
@@ -29,7 +29,6 @@ a {
 
 button {
 	background: #f2994a;
-
 	background: linear-gradient(to right, #f2c94c, #f2994a);
 	padding: 0.7rem 1.3rem;
 	outline: none;
@@ -45,14 +44,12 @@ button a {
 #navSection {
 	position: fixed;
 	width: 100vw;
-	padding: 0 5rem;
-
+	padding: 0 7rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 9vh;
 	background: #f2994a;
-
 	background: linear-gradient(to left, #f2c94c, #f2994a);
 	box-shadow: 0px 0px 20px -1px #919191;
 }
@@ -86,7 +83,6 @@ button a {
 /*============Hero section============*/
 #firstSection {
 	height: 100vh;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -113,9 +109,7 @@ button a {
 
 #firstSection .rightSide {
 	flex: 1;
-
 	display: flex;
-
 	justify-content: center;
 }
 
@@ -128,11 +122,10 @@ button a {
 /*============about section============*/
 #aboutSection {
 	height: 100vh;
-	background-image: url(images/shapes/FrameSecond.jpg);
+	background-image: url(images/shapes/Frame58.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -174,7 +167,6 @@ button a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	justify-content: center;
 	height: 100vh;
 }
@@ -196,7 +188,6 @@ button a {
 
 #recipies .recipiesCard {
 	display: flex;
-
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
@@ -215,12 +206,10 @@ button a {
 
 #counter {
 	height: 15vh !important;
-
 	box-shadow: 0px 0px 20px -1px #919191;
 	padding: 1rem;
-	margin: 2rem;
+	margin: 2rem 0;
 	border-radius: 15px;
-
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -229,9 +218,7 @@ button a {
 /*============ contact  section============*/
 #contact {
 	height: 100vh;
-
 	display: flex;
-
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
@@ -256,13 +243,10 @@ button a {
 
 #contact form {
 	box-shadow: 0px 0px 20px -1px #736f73;
-
 	flex: 1;
 	background-color: #707070;
 	padding: 2rem;
-
 	display: flex;
-
 	justify-content: center;
 	align-items: start;
 	flex-direction: column;
@@ -329,9 +313,7 @@ button a {
 }
 #footer .icon {
 	margin-top: 1.9rem;
-
 	display: flex;
-
 	justify-content: center;
 	gap: 1rem;
 	color: white;
